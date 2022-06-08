@@ -12,12 +12,12 @@ require_once PATH_PROJECT . '/connect.php';
     <title>Connexion</title>
 </head>
 <body>
-<div class="msg">
-    <?php
-    if(isset($_GET['msg'])) {
-        echo $_GET['msg'];
-    } ?>
-</div>
+    <div class="msg">
+        <?php
+        if(isset($_GET['msg'])) {
+            echo $_GET['msg'];
+        } ?>
+    </div>
     <form class="form-subscribe" action="<?php echo HOME_URL . 'requests/subscribe_post.php'; ?>" method="POST"
         <div class="field-subscribe">
             <label class="label-subscribe" for="email">Email<span class="red">*</span></label>
