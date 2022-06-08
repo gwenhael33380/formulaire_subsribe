@@ -1,6 +1,6 @@
 <?php
 define('PATH_PROJECT', __DIR__);
-define('HOME_URL', 'http://test/');
+define('HOME_URL', 'http://cerveza-front/');
 function check_password($pass) {
     preg_match('#^(?=(.*[A-Z])+)(?=(.*[a-z])+)(?=(.*[\d])+)(?=.*\W)(?!.*\s).{8,16}$#', $pass, $match);
     if(empty($match)) {
